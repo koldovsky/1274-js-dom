@@ -12,6 +12,7 @@
     --text-color: black;
     --border-color: black;
     --accent-color: #a5c7cf;
+    --highlight-color: red;
     font-family: "DotGothic16", sans-serif;
     scroll-behavior: smooth;
 }
@@ -25,4 +26,8 @@ img {
     max-width: 1200px;
     padding: 0 15px;
     margin: auto;
+}
+
+body .highlight {
+    color: var(--highlight-color);
 }
